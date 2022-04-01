@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  text-align: center;
+}
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: #778899;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 20px;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  -webkit-animation: background 3s ease-in-out infinite;
+          animation: background 3s ease-in-out infinite;
+  -webkit-animation-direction: relative;
+          animation-direction: relative;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  margin-top: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page-title {
+  color: #000000;
+
+  margin: 70px 0 5px;
+  padding: 35px;
+  font-size: 50px;
+}
+.page-subtitle {
+  color: #000000;
+  margin-top: 5px;
+  font-size: 20px;
+}
+.alura-logo {
+  width: 60px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px 10px 10px;
+}
+
+.alura-logo:hover {
+  -webkit-animation: girar 1s;
+          animation: girar 1s;
+}
+.form {
+  background-color: #db7093;
+  box-shadow: 6px 6px 6px #4f4f4f;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 10px auto;
+  width: 20%;
+  min-width: 300px;
+}
+.form:hover {
+  -webkit-animation: expandir 1s;
+          animation: expandir 1s;
+}
+.input-padrao {
+  border-radius: 6px;
+}
+.input-padrao:hover {
+  letter-spacing: 2px;
+}
+.mainP {
+  color: #000000;
+}
+.page-logo {
+  width: 200px;
+  height: 40px;
+  padding-bottom: 25px;
+  padding: 20px 0 0;
+  margin: auto;
+  -webkit-animation: piscar 1s linear infinite alternate;
+          animation: piscar 1s linear infinite alternate;
+}
+womanCode > img {
+  margin: auto;
+}
+img {
+  -webkit-animation: button 3s ease-in infinite;
+          animation: button 3s ease-in infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  max-height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.womanCode:hover {
+  -webkit-animation: expandir 1s;
+          animation: expandir 1s;
+}
+.footer {
+  padding: 10px;
+}
+@-webkit-keyframes expandir {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes expandir {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes girar {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes girar {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes piscar {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes piscar {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
