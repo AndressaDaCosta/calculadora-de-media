@@ -1,6 +1,8 @@
 # 🔢  calculadora de Média
 
 
+Projeto desenvolvido durante a #imersãoDEV da Alura!
+
 link Github: https://andressadacosta.github.io/calculadora-de-media/
 
 link Codepen: https://codepen.io/andressadacosta/full/NWwZmop
