@@ -1,4 +1,4 @@
-# 🔢  calculadora de Média
+# 🔢  Calculadora de Média
 
 
 Projeto desenvolvido durante a #imersãoDEV da Alura!
